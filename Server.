@@ -1,0 +1,80 @@
+@@ -15,8 +15,8 @@ RUN apt-get install -y curl apt-transport-https lsb-release \
+    && apt-get update \
+    && apt-get install -y yarn
+
+# Instal tslint dan TypeScript
+JALANKAN npm install -g tslint TypeScript
+# Instal eslint
+RUN npm install -g eslint
+
+# Bersihkan
+JALANKAN apt - dapatkan autoremove - y \
+ {
+	"akar" : benar ,
+	"env" : {
+		"simpul" : benar ,
+		"es6" : benar
+	} ,
+	"aturan" : {
+		"tanpa konsol" : 0 ,
+		"eqeqeq" : "peringatkan" ,
+		"no-cond-assign" : 0 ,
+		"no-unused-vars" : 1 ,
+		"no-extra-semi" : "peringatkan" ,
+		"semi" : "peringatkan"
+	} ,
+	"extends" : "eslint:direkomendasikan" ,
+	"parserOptions" : {
+		"ecmaFeatures" : {
+			"experimentalObjectRestSpread" : benar
+		}
+	}
+}
+{
+kamikami
+kami
+kami{
+  " nama " : " docker_web_app " ,
+  " pribadi " : benar ,
+  " versi " : " 1.0.0 " ,
+  " description " : " Node.js di Docker " ,
+  " author " : " Pertama Terakhir <first.last@example.com> " ,
+  " main " : " out/ server.js " ,
+  " main " : " server.js " ,
+  " skrip " : {
+    " kompilasi " : " node_modules/.bin/tsc -p tsconfig.json " ,
+    " mulai " : " simpul keluar/server.js "
+    " mulai " : " simpul server.js "
+  },
+  " ketergantungan " : {
+    " ekspres " : " ^4.16.1 "
+  },
+  " devDependencies " : {
+    " @types/express " : " ^4.16.0 " ,
+    " tslint " : " ^5.11.0 "
+  }
+}
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+kami
+" ketik " : " simpul " ,
+            " permintaan " : " luncurkan " ,
+            " name " : " Peluncuran Program " ,
+            " program " : " ${workspaceFolder}/out/server.js " ,
+            " cwd " : " ${workspaceFolder} " ,
+            " preLaunchTask " : " kompilasi "
+            " program " : " ${workspaceFolder}/server.js 
+        }
+    ]
+} 
