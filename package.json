@@ -1,0 +1,8 @@
+kami@@ -4,6 +4,7 @@
+  " description " : " Node.js di Docker " ,
+  " author " : " Pertama Terakhir <first.last@example.com> " ,
+  " main " : " server.js " ,
+  " pribadi " : benar ,
+  " skrip " : {
+    " mulai " : " simpul server.js "
+  },
