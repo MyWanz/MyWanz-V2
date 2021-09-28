@@ -1,0 +1,17 @@
+"Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Err:4 https://dl.bintray.com/grimler/game-packages-24 games Release
+  403  Forbidden
+Err:5 https://dl.bintray.com/grimler/science-packages-24 science Release
+  403  Forbidden
+Get:1 https://grimler.se/termux-packages-24 stable InRelease [13.1 kB]
+Get:6 https://grimler.se/termux-packages-24 stable/main all Packages [21.6 kB]
+Get:7 https://grimler.se/termux-packages-24 stable/main aarch64 Packages [269 kB]
+Reading package lists... Done
+E: The repository 'https://dl.bintray.com/grimler/game-packages-24 games Release' does not have a Release file.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+E: The repository 'https://dl.bintray.com/grimler/science-packages-24 science Release' does not have a Release file.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?)."
+ https://github.com/termux/termux-app/issues/2067#:~:text=announced%20its%20sunset.-,Ign%3A2%20https%3A//dl.bintray.com/grimler/game-packages-24,repository%20is%20under%20maintenance%20or%20down%20(wrong%20sources.list%20URL%3F).,-What%20you%20should
